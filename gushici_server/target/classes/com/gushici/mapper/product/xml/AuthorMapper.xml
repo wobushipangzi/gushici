@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gushici.mapper.product.AuthorMapper">
+
+    <!-- 通过作者id查询作者详情 -->
+    <select id="getAuthorByAuthId" resultType="com.gushici.bean.product.Author">
+        SELECT author_id as authorId,
+        author_name as authorName,
+        reign_id as reignId,
+        author_zi as authorZi,
+        author_hao as authorHao,
+        author_introduce as authorIntroduce,
+        author_url as authUrl,
+        reign_id as reignId
+        FROM tb_author
+        WHERE author_id = #{authorId}
+    </select>
+
+    <!-- 通过朝代id获取朝代 -->
+    <select id="getReignByReignId" resultType="com.gushici.bean.product.Reign">
+        SELECT reign_name AS reignName,
+        reign_id as reignId
+        FROM tb_reign
+        WHERE reign_id = #{reignId}
+    </select>
+
+    <!-- 查询所有的朝代 -->
+    <select id="getReigns" resultType="com.gushici.bean.product.Reign">
+        SELECT reign_id as reignId,
+            reign_name as reignName
+        FROM tb_reign
+        ORDER BY sort_order
+    </select>
+
+    <!-- 通过朝代id获取所有的作者 -->
+    <select id="getAuthorByReignId" resultType="com.gushici.bean.product.Author">
+        SELECT author_id as authorId,
+        author_name as authorName
+        FROM tb_author
+        WHERE reign_id = #{reignId}
+        ORDER BY reign_id
+        LIMIT 9;
+    </select>
+
+
+    <select id="selectAuthorAndReignList" resultType="com.gushici.bean.product.AuthorAndReign">
+        SELECT author_id, author_name, author_zi, author_hao, reign_name
+        FROM tb_author aut LEFT JOIN tb_reign reign ON aut.`reign_id` = reign.`reign_id`
+        WHERE author_id IN
+        (SELECT author_id
+        FROM (SELECT author_id
+        FROM tb_author
+        WHERE author_name LIKE CONCAT('%',#{authorName},'%')
+        OR author_zi LIKE CONCAT('%',#{authorName},'%')
+        OR author_hao LIKE CONCAT('%',#{authorName},'%')
+        LIMIT #{indexCount},#{countInPage}) authorId)
+    </select>
+
+    <select id="getAuthorDetailsByAuthId" resultType="com.gushici.bean.product.AuthorAndReign">
+         SELECT  author_name, author_introduce,author_url, reign_name
+        FROM tb_author aut LEFT JOIN tb_reign reign ON aut.`reign_id` = reign.`reign_id`
+        WHERE author_id = #{authorId}
+    </select>
+</mapper>

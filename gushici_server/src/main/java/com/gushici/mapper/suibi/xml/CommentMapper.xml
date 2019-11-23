@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gushici.mapper.suibi.CommentMapper">
+
+    <!-- 根据主题id和主题类型查询对应的主评论和用户信息 -->
+    <select id="selectCommentAndUser" resultType="com.gushici.bean.user.CommentAndUser">
+        SELECT com.comment_id,
+        com.content,
+        com.from_open_id,
+        com.comment_time,
+        com.praise_count,
+        com.reply_count,
+        usr.head_photo_url,
+        usr.name
+        FROM tb_comment com LEFT JOIN tb_user usr ON com.from_open_id = usr.open_id
+        WHERE com.topic_id = #{topicId} AND com.topic_type = #{topicType}
+        ORDER BY com.comment_time DESC
+        LIMIT #{indexCount},#{countInPage}
+    </select>
+
+
+
+    <select id="selectReplyCountByCommentId" resultType="string">
+        SELECT reply_count
+        FROM tb_comment
+        WHERE comment_id = #{commentId}
+    </select>
+</mapper>

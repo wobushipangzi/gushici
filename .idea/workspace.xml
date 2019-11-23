@@ -1,0 +1,1960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8aa023e1-00da-4b3e-b123-50a6bd070346" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/product/target/" />
+    <ignored path="$PROJECT_DIR$/eureka_server/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/user/target/" />
+    <ignored path="$PROJECT_DIR$/gushici_server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gushici">
+      <favorite_root url="file://$PROJECT_DIR$/gushici_server" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/user" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/user/User.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/user/Reply.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/user/Praise.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/user/Report.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/user/Collect.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/user/Comment.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/user/Message.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/user/Feedback.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/user/Attention.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/forum" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/forum/Suibi.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/product" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/product/Reign.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/product/Author.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/product/Product.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/product/AllClass.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/product/ClassOne.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/product/ClassTwo.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/product/AuthorAndReign.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/product/ClassTwoProduct.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/bean/product/ProductAndReignAndAuthor.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user/xml" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user/UserMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user/ReplyMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user/PraiseMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user/ReportMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user/CollectMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user/CommentMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user/MessageMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user/FeedbackMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/user/AttentionMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/suibi" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/suibi/xml" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/suibi/SuibiMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/product" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/product/xml" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/product/xml/AuthorMapper.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/product/xml/ProductMapper.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/product/xml/ClassTwoProductMapper.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        </favorite_root>
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/product/ReignMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/product/AuthorMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/product/ProductMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/product/ClassTwoMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/mapper/product/ClassTwoProductMapper.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/impl" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/impl/UserServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/impl/ReplyServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/impl/PraiseServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/impl/ReportServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/impl/CollectServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/impl/CommentServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/impl/MessageServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/impl/FeedbackServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/impl/AttentionServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        </favorite_root>
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/UserService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/ReplyService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/PraiseService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/ReportService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/CollectService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/CommentService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/MessageService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/FeedbackService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/user/AttentionService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/suibi" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/suibi/impl" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/suibi/impl/SuibiServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        </favorite_root>
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/suibi/SuibiService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/product" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/product/impl" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/product/impl/AuthorServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/product/impl/ProductServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/product/impl/ClassTwoServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/product/impl/ClassTwoProductServiceImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        </favorite_root>
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/product/AuthorService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/product/ProductService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/product/ClassTwoService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/service/product/ClassTwoProductService.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller/user" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller/user/UserController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller/user/CommentController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller/user/AttentionController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller/forum" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller/forum/SuibiController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller/product" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller/product/WordController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller/product/AuthorController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/controller/product/ProductController.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/user/UserApplication.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/resources" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/resources/static" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/resources/static/1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/resources/static/2.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/resources/templates" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/resources/templates/index.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/main/resources/application.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/test" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/test/java" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gushici_server/src/test/java/Date.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/gushici_server/target" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/forum" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/forum/Suibi.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/User.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/Reply.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/Praise.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/Report.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/Collect.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/Comment.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/Message.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/Feedback.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/bean/Attention.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper/UserMapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper/ReplyMapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper/SuibiMapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper/PraiseMapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper/ReportMapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper/CollectMapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper/CommentMapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper/MessageMapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper/FeedbackMapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/mapper/AttentionMapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl/UserServiceImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl/ReplyServiceImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl/SuibiServiceImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl/PraiseServiceImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl/ReportServiceImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl/CollectServiceImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl/CommentServiceImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl/MessageServiceImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl/FeedbackServiceImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/impl/AttentionServiceImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/UserService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/ReplyService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/SuibiService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/PraiseService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/ReportService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/CollectService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/CommentService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/MessageService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/FeedbackService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/service/AttentionService.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/controller" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/controller/forum" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/controller/forum/SuibiController.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/controller/UserController.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/controller/CommentController.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/controller/AttentionController.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/com/gushici/user/UserApplication.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/classes/application.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-status" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-status/maven-compiler-plugin" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-status/maven-compiler-plugin/compile" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-status/maven-compiler-plugin/compile/default-compile" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-status/maven-compiler-plugin/testCompile" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/test-classes" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/test-classes/Date.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-archiver" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/maven-archiver/pom.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/generated-sources" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/generated-sources/annotations" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/generated-test-sources" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/generated-test-sources/test-annotations" module="gushici" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/user-0.0.1-SNAPSHOT.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="file://$PROJECT_DIR$/gushici_server/target/user-0.0.1-SNAPSHOT-exec.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/gushici_server/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/gushici_server/user.iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/user/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="686" column="103" selection-start-line="686" selection-start-column="103" selection-end-line="686" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/test/java/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="78" column="68" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/user/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1870">
+              <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+              <folding>
+                <element signature="e#1390#1391#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#2351#2352#0" expanded="true" />
+                <element signature="e#2387#2388#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/SuibiServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/SuibiService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>回复接</find>
+      <find>param</find>
+      <find>@Param(</find>
+      <find>reignId</find>
+      <find>关注</find>
+      <find>更多</find>
+      <find>@Param</find>
+      <find>limit</find>
+      <find>page</find>
+      <find>ProductServiceImpl</find>
+      <find>CommentServiceImpl</find>
+      <find>selectOne</find>
+      <find>spring-boot-starter-data-jpa</find>
+      <find>搜索作品功能接口出参为：</find>
+      <find>java.util.concurrent</find>
+      <find>executor</find>
+      <find>微信服务器返回数据为：==&gt;</find>
+      <find>Down</find>
+      <find>future</find>
+      <find>futureta</find>
+      <find>AbstractQueuedSynchronizer</find>
+      <find>down</find>
+      <find>countDownLatch</find>
+      <find>点赞</find>
+      <find>insert</find>
+      <find>/getRecommend</find>
+      <find>通过随笔id删除随笔记录接口未知异常错误</find>
+      <find>SuibiServiceImpl</find>
+      <find>      </find>
+      <find>从OOS删除文件失败</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Small_Program\gushici\gushici_server\src\main\java\com\gushici\user</dir>
+      <dir>D:\Java\jdk1.8.0_131\jre\lib\rt.jar!\java\util\concurrent</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/user/TestController.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/impl/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/user/impl/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/resources/templates/ddjBaoMing.fxml" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/daodejing/ApplyUser.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/daodejing/impl/ApplyUserImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/daodejing/ApplyUserMapper.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/daodejing/ApplyUserMapper.xml" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/daodejing/ApplyUserService.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/daodejing/impl/ApplyUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/daodejing/ApplyUserController.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/resources/templates/ddjBaoMing.html" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/ClassTwoService.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/CollectService.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/ParseWordUtils.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/ProductService.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/impl/ClassTwoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/impl/CollectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/product/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/product/WordController.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/result/ResultCode.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/product/ProductController.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/AuthorService.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/impl/AuthorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/product/AuthorController.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/ReplyService.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/ReplyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/CommentService.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/CommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/CommentController.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/result/GlobalException.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/filter/ControllerAdvice.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/filter/UnifyControllerAdvice.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/test/java/ShuiYin.java" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/gushici_server/src/test/java/Testt.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/AliOOS.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/test/java/Date.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/forum/Suibi.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/ThreadPool.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/ReportService.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/ReportServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/user/UserService.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/user/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/SuibiService.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/OOSUtils.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/common/src/test/java/Data.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/SuibiServiceImpl.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/DevInstall/apache-maven-3.6.1-ziyong" />
+        <option name="userSettingsFile" value="D:\DevInstall\apache-maven-3.6.1-ziyong\conf\ziyong_settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="home" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="home" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="690" />
+    <option name="y" value="25" />
+    <option name="width" value="1410" />
+    <option name="height" value="815" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="forum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="suibi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="suibi" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="statics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javax" type="462c0819:PsiDirectoryNode" />
+              <item name="swing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.validation:validation-api:1.1.0.Final" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.validation:validation-api:1.1.0.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="validation-api-1.1.0.Final.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.validation:validation-api:1.1.0.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="validation-api-1.1.0.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.validation:validation-api:1.1.0.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="validation-api-1.1.0.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
+              <item name="constraints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.21.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.21.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.21.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.21.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.21.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.21.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.21.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.21.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.21.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="pl&#9;FILE&#9;file://D:/Small_Program/gushici/user/src/main/java/com/gushici/user/service/impl/CommentServiceImpl.java&#10;CollectService&#9;FILE&#9;file://D:/Small_Program/gushici/user/src/main/java/com/gushici/user/service/CollectService.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="D:/nodeJs/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Small_Program\gushici\common\src\main\resources\statics" />
+      <recent name="D:\Small_Program\gushici\gushici_server\src\main\resources\statics" />
+      <recent name="D:\Small_Program\gushici\gushici_server\target\classes\statics" />
+      <recent name="D:\Small_Program\gushici\gushici_server\src\main\resources\static" />
+      <recent name="D:\Small_Program\gushici\common\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.gushici.user.service.impl" />
+      <recent name="com.gushici.user.service" />
+      <recent name="com.gushici.user.mapper" />
+      <recent name="com.gushici.user.controller.forum" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Small_Program\gushici\gushici_server\src\main\resources\templates" />
+      <recent name="D:\Small_Program\gushici\gushici_server\src\main\resources\statics" />
+      <recent name="D:\Small_Program\gushici\gushici_server\src\main\resources" />
+      <recent name="D:\Small_Program\gushici\gushici_server\src\main\java\com\gushici\mapper\xml" />
+      <recent name="D:\Small_Program\gushici\product\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Data.test1">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Date" />
+      <module name="gushici_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testt" />
+      <module name="gushici_server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Data.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="common" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Data" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShuiYin.shuiyin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gushici_server" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShuiYin" />
+      <option name="METHOD_NAME" value="shuiyin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gushici.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gushici.eurkaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GushiciServerApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gushici_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="GushiciServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GushiciServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gushici.user.GushiciServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gushici.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gushici.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Testt" />
+      <item itemvalue="Application.Date" />
+      <item itemvalue="JUnit.ShuiYin.shuiyin" />
+      <item itemvalue="JUnit.Data.test1" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="Spring Boot.GushiciServerApplication" />
+      <item itemvalue="Spring Boot.GushiciServerApplication (2)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Data.test1" />
+        <item itemvalue="Spring Boot.GushiciServerApplication (2)" />
+        <item itemvalue="Application.Date" />
+        <item itemvalue="Application.Testt" />
+        <item itemvalue="JUnit.ShuiYin.shuiyin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8aa023e1-00da-4b3e-b123-50a6bd070346" name="Default" comment="" />
+      <created>1561443617774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561443617774</updated>
+      <workItem from="1561443621227" duration="218000" />
+      <workItem from="1561466158992" duration="1762000" />
+      <workItem from="1561620444541" duration="6685000" />
+      <workItem from="1561630016640" duration="1767000" />
+      <workItem from="1561639117584" duration="10136000" />
+      <workItem from="1561713331258" duration="906000" />
+      <workItem from="1561725001726" duration="13000" />
+      <workItem from="1561960175688" duration="1294000" />
+      <workItem from="1562051346443" duration="1793000" />
+      <workItem from="1562132261119" duration="25903000" />
+      <workItem from="1562169272691" duration="509000" />
+      <workItem from="1562204861291" duration="8731000" />
+      <workItem from="1562245165264" duration="5591000" />
+      <workItem from="1562327061075" duration="811000" />
+      <workItem from="1562377396853" duration="13988000" />
+      <workItem from="1562479276536" duration="594000" />
+      <workItem from="1562549467332" duration="3523000" />
+      <workItem from="1562589977253" duration="10127000" />
+      <workItem from="1562635953216" duration="15920000" />
+      <workItem from="1562653649516" duration="57000" />
+      <workItem from="1562654063805" duration="1074000" />
+      <workItem from="1562657937920" duration="11293000" />
+      <workItem from="1562721613847" duration="19434000" />
+      <workItem from="1562760195416" duration="10653000" />
+      <workItem from="1562807882655" duration="7056000" />
+      <workItem from="1562834832618" duration="8731000" />
+      <workItem from="1562846504738" duration="3676000" />
+      <workItem from="1562895059314" duration="11747000" />
+      <workItem from="1562974493186" duration="1709000" />
+      <workItem from="1563019881574" duration="5037000" />
+      <workItem from="1563080984079" duration="13011000" />
+      <workItem from="1563154719311" duration="1767000" />
+      <workItem from="1563169720678" duration="4706000" />
+      <workItem from="1563259332599" duration="1727000" />
+      <workItem from="1563417593775" duration="1372000" />
+      <workItem from="1563788575678" duration="778000" />
+      <workItem from="1563798831382" duration="3610000" />
+      <workItem from="1563802504545" duration="1428000" />
+      <workItem from="1563845315836" duration="17418000" />
+      <workItem from="1563883267586" duration="3077000" />
+      <workItem from="1563886960379" duration="6612000" />
+      <workItem from="1563931572013" duration="26021000" />
+      <workItem from="1564018690068" duration="6144000" />
+      <workItem from="1564055175737" duration="7134000" />
+      <workItem from="1564104313084" duration="26033000" />
+      <workItem from="1564141323464" duration="36104000" />
+      <workItem from="1564363587751" duration="4246000" />
+      <workItem from="1564367914846" duration="3319000" />
+      <workItem from="1564371290031" duration="357000" />
+      <workItem from="1564371892377" duration="5749000" />
+      <workItem from="1564464065071" duration="1452000" />
+      <workItem from="1564536170666" duration="13757000" />
+      <workItem from="1564624203543" duration="15464000" />
+      <workItem from="1564711433910" duration="18391000" />
+      <workItem from="1564794650008" duration="37522000" />
+      <workItem from="1564968605278" duration="12209000" />
+      <workItem from="1565055011130" duration="9674000" />
+      <workItem from="1565093656595" duration="5325000" />
+      <workItem from="1565141106715" duration="28080000" />
+      <workItem from="1565179928396" duration="3636000" />
+      <workItem from="1565227690377" duration="17844000" />
+      <workItem from="1565268010888" duration="3590000" />
+      <workItem from="1565314346304" duration="599000" />
+      <workItem from="1565334818047" duration="3008000" />
+      <workItem from="1565343358123" duration="2594000" />
+      <workItem from="1565353176263" duration="14137000" />
+      <workItem from="1565413077755" duration="37458000" />
+      <workItem from="1565573422639" duration="22310000" />
+      <workItem from="1565674179105" duration="14475000" />
+      <workItem from="1565697761880" duration="2008000" />
+      <workItem from="1565745818927" duration="8340000" />
+      <workItem from="1565784064645" duration="1232000" />
+      <workItem from="1565833146420" duration="3302000" />
+      <workItem from="1565936041376" duration="8369000" />
+      <workItem from="1565960018368" duration="32932000" />
+      <workItem from="1566178919738" duration="5937000" />
+      <workItem from="1566220299162" duration="2329000" />
+      <workItem from="1566264572725" duration="4284000" />
+      <workItem from="1566351839121" duration="14632000" />
+      <workItem from="1566439971772" duration="1758000" />
+      <workItem from="1566483428968" duration="5600000" />
+      <workItem from="1566523567367" duration="11146000" />
+      <workItem from="1566572877549" duration="2936000" />
+      <workItem from="1566621564932" duration="591000" />
+      <workItem from="1566783605279" duration="2268000" />
+      <workItem from="1566870090052" duration="2743000" />
+      <workItem from="1566914714103" duration="1618000" />
+      <workItem from="1566955743908" duration="8151000" />
+      <workItem from="1567044374903" duration="632000" />
+      <workItem from="1567089837945" duration="236000" />
+      <workItem from="1567128326142" duration="1895000" />
+      <workItem from="1567165373115" duration="1887000" />
+      <workItem from="1567172734618" duration="844000" />
+      <workItem from="1567391002070" duration="1356000" />
+      <workItem from="1567404421937" duration="2364000" />
+      <workItem from="1567477596932" duration="2610000" />
+      <workItem from="1567668865683" duration="3814000" />
+      <workItem from="1567736124436" duration="3794000" />
+      <workItem from="1567996646146" duration="1211000" />
+      <workItem from="1568080348907" duration="1217000" />
+      <workItem from="1568684867219" duration="12000" />
+      <workItem from="1568951668311" duration="2855000" />
+      <workItem from="1569229898373" duration="3981000" />
+      <workItem from="1569288624597" duration="16397000" />
+      <workItem from="1569377260121" duration="3770000" />
+      <workItem from="1569461817898" duration="3226000" />
+      <workItem from="1569547882636" duration="595000" />
+      <workItem from="1569727836643" duration="849000" />
+      <workItem from="1570763602502" duration="4214000" />
+      <workItem from="1571197884957" duration="1464000" />
+      <workItem from="1571295228713" duration="1267000" />
+      <workItem from="1571306822493" duration="700000" />
+      <workItem from="1571654616039" duration="56000" />
+      <workItem from="1571730243318" duration="2871000" />
+      <workItem from="1573019249081" duration="10273000" />
+      <workItem from="1573090406101" duration="824000" />
+      <workItem from="1573105562848" duration="5795000" />
+      <workItem from="1573724595629" duration="9431000" />
+      <workItem from="1573805228608" duration="9199000" />
+      <workItem from="1573814812452" duration="7000" />
+      <workItem from="1574064769053" duration="8348000" />
+      <workItem from="1574128307605" duration="25237000" />
+      <workItem from="1574164442228" duration="2766000" />
+      <workItem from="1574213504192" duration="20066000" />
+      <workItem from="1574251020546" duration="4739000" />
+      <workItem from="1574300459041" duration="20860000" />
+      <workItem from="1574341289304" duration="11382000" />
+      <workItem from="1574386550189" duration="22360000" />
+      <workItem from="1574429738847" duration="6060000" />
+      <workItem from="1574513811351" duration="1238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ShuiYin_shuiyin - 2019.11.20 at 10h 03m 31s.xml">
+      <configuration name="ShuiYin.shuiyin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShuiYin_shuiyin - 2019.11.20 at 10h 05m 38s.xml">
+      <configuration name="ShuiYin.shuiyin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShuiYin_shuiyin - 2019.11.20 at 10h 06m 10s.xml">
+      <configuration name="ShuiYin.shuiyin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShuiYin_shuiyin - 2019.11.21 at 12h 00m 04s.xml">
+      <configuration name="ShuiYin.shuiyin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShuiYin_shuiyin - 2019.11.21 at 13h 37m 37s.xml">
+      <configuration name="ShuiYin.shuiyin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShuiYin_shuiyin - 2019.11.21 at 13h 41m 54s.xml">
+      <configuration name="ShuiYin.shuiyin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShuiYin_shuiyin - 2019.11.21 at 13h 46m 25s.xml">
+      <configuration name="ShuiYin.shuiyin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Data_test1 - 2019.11.22 at 22h 06m 01s.xml">
+      <configuration name="Data.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Data_test1 - 2019.11.22 at 22h 06m 12s.xml">
+      <configuration name="Data.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Data_test1 - 2019.11.22 at 23h 42m 07s.xml">
+      <configuration name="Data.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="967035000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4935065" weight="0.2855228" />
+      <window_info id="Structure" order="1" weight="0.21313673" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5064935" side_tool="true" weight="0.22587131" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.48980686" weight="0.3281471" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.46512875" weight="0.47666195" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4302949" weight="0.40452617" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32915717" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.32915717" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32915717" />
+      <window_info anchor="bottom" id="Statistic" order="12" sideWeight="0.42972103" weight="0.32915717" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.56970507" side_tool="true" weight="0.36350778" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="1" weight="0.3297587" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.22424893" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3299356" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.3299356" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49544418" visible="true" weight="0.3197425" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5045558" side_tool="true" weight="0.2972103" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.48980686" weight="0.32915717" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.46512875" weight="0.52733487" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.4361588" visible="true" weight="0.35193622" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32915717" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.32915717" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32915717" />
+      <window_info anchor="bottom" id="Statistic" order="12" sideWeight="0.4409871" weight="0.32915717" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5638412" side_tool="true" weight="0.35193622" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.27521458" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3299356" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3299356" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/gushici_server/src/test/java/Node.java</url>
+          <line>44</line>
+          <properties class="reverNode" method="reverserLinkedList">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/impl/AuthorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="161" column="48" selection-start-line="161" selection-start-column="48" selection-end-line="161" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/product/AuthorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/product/WordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/product/AuthorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="105" column="1" lean-forward="true" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2596">
+          <caret line="142" column="33" selection-start-line="142" selection-start-column="33" selection-end-line="142" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/ReplyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/ReplyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4532">
+          <caret line="242" column="9" selection-start-line="242" selection-start-column="9" selection-end-line="242" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/user/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/result/GlobalException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ideaMaven/ziyongIdeaRepMaven/org/springframework/spring-webmvc/4.3.21.RELEASE/spring-webmvc-4.3.21.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="468" column="36" selection-start-line="468" selection-start-column="36" selection-end-line="468" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/awt/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="198" column="28" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/resources/statics/shuiyin.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/statics/shuiyin.png" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/jedis.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="43" selection-start-line="43" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="164" column="15" selection-start-line="164" selection-start-column="15" selection-end-line="164" selection-end-column="15" />
+          <folding>
+            <element signature="e#5677#5678#0" expanded="true" />
+            <element signature="e#5717#5718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/test/java/ShuiYin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="23" column="90" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_server/src/main/java/com/gushici/eurkaserver/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/filter/UnifyControllerAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/resources/statics/distpicker.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/test/java/Testt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/test/java/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/forum/Suibi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ideaMaven/ziyongIdeaRepMaven/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/javax/validation/constraints/Null.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ideaMaven/ziyongIdeaRepMaven/com/aliyun/oss/aliyun-sdk-oss/3.5.0/aliyun-sdk-oss-3.5.0.jar!/com/aliyun/oss/model/DeleteObjectsRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/javax/swing/DebugGraphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="1308" column="16" selection-start-line="1308" selection-start-column="16" selection-end-line="1308" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/awt/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="1156" column="25" selection-start-line="1156" selection-start-column="25" selection-end-line="1156" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/ThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/user/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/result/GlobalResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/Xiaochengxu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/ReportServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/GushiciServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/OOSUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/AliOOS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/test/java/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="120" column="15" selection-start-line="120" selection-start-column="15" selection-end-line="120" selection-end-column="15" />
+          <folding>
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#2351#2352#0" expanded="true" />
+            <element signature="e#2387#2388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="686" column="103" selection-start-line="686" selection-start-column="103" selection-end-line="686" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/SuibiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/SuibiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="78" column="68" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>product:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gushici_server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
