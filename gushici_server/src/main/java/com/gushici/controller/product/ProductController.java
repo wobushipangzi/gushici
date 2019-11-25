@@ -123,7 +123,6 @@ public class ProductController {
             }
             logger.info("点击更多获取更多二级分类接口出参为：==>{}", JSONObject.toJSONString(globalResult));
         }catch (GlobalException e){
-            logger.error("点击更多获取更多二级分类接口异常{}",e);
             globalResult = GlobalResult.error();
         }catch (Exception e){
             logger.error("系统错误异常{}",e);

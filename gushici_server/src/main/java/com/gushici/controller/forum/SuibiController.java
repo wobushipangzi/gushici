@@ -83,7 +83,6 @@ public class SuibiController {
                 globalResult = GlobalResult.error();
             }
         }catch (GlobalException e){
-            logger.error("调用上传随笔配图异常", e);
             globalResult = GlobalResult.error();
         }catch (Exception e){
             logger.error("用户随笔文字内容上传接口异常", e);
@@ -132,7 +131,6 @@ public class SuibiController {
                 globalResult = GlobalResult.error();
             }
         }catch (GlobalException e){
-            logger.error("调用删除数据库和OOS中的随笔接口异常", e);
             globalResult = GlobalResult.error();
         }catch (Exception e){
             logger.error("用户删除随笔接口异常{}", e);

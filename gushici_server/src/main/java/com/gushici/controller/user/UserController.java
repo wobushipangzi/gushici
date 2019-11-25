@@ -121,7 +121,6 @@ public class UserController {
             checkLoginMap.put("isLogin","yes");
             globalResult.setData(checkLoginMap);
         }catch (GlobalException e){
-            logger.error("调用更新用户接口异常", e);
             globalResult = GlobalResult.error();
         }catch (Exception e){
             logger.error("检查登录接口异常", e);
@@ -205,7 +204,6 @@ public class UserController {
             globalResult.setData(dataMap);
             logger.info("登录接口返参为：==>" + JSONObject.toJSONString(globalResult));
         }catch (GlobalException e){
-            logger.error("调用service异常", e);
             globalResult = GlobalResult.error();
         }catch (Exception e){
             logger.error("用户登录接口异常", e);
@@ -294,7 +292,6 @@ public class UserController {
             globalResult.setData(dataMap);
             logger.info("获取用户信息接口返参为：==>" + JSONObject.toJSONString(globalResult));
         }catch (GlobalException e){
-            logger.error("调用service服务异常", e);
             globalResult = GlobalResult.error();
         }catch (Exception e){
             logger.error("获取用户信息接口异常", e);
@@ -364,7 +361,6 @@ public class UserController {
             globalResult.setData(dateMap);
             logger.info("保存用户信息接口返参为：==>" + JSONObject.toJSONString(globalResult));
         }catch (GlobalException e){
-            logger.error("调用service服务异常", e);
             globalResult = GlobalResult.error();
         }catch (Exception e){
             logger.error("保存用户信息接口异常", e);
@@ -589,7 +585,6 @@ public class UserController {
             globalResult.setData(hashMap);
             return globalResult;
         }catch (GlobalException e){
-            logger.error("调用service服务异常", e);
             return GlobalResult.error();
         }catch (Exception e){
             logger.error("用户头像上传接口获取输入流失败" + e);
@@ -659,7 +654,6 @@ public class UserController {
                 globalResult = GlobalResult.error();
             }
         }catch (GlobalException e){
-            logger.error("调用举报信息入库接口异常", e);
             globalResult = GlobalResult.error();
         }catch (Exception e){
             logger.error("举报接口上传基本信息异常", e);

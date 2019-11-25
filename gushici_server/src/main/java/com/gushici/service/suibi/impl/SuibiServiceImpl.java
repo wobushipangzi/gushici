@@ -12,6 +12,7 @@ import com.gushici.common.result.GlobalResult;
 import com.gushici.common.result.ResultCode;
 import com.gushici.common.smallprogram.AliOOS;
 import com.gushici.common.smallprogram.CommentType;
+import com.gushici.common.smallprogram.OnePageCount;
 import com.gushici.common.utils.DateTimeUtils;
 import com.gushici.common.utils.OOSUtils;
 import com.gushici.common.utils.ThreadPool;
@@ -155,11 +156,11 @@ public class SuibiServiceImpl implements SuibiService {
             List<Suibi> suibis;
             if(StringUtils.isEmpty(lastSuibiId)){
                 QueryWrapper<Suibi> suibiQueryWrapper = new QueryWrapper<>();
-                suibiQueryWrapper.orderByDesc("suibi_time").last("LIMIT 10");
+                suibiQueryWrapper.orderByDesc("suibi_time").last("LIMIT " + OnePageCount.SUIBI_COUNT_ONE_PAGE);
                 suibis = suibiMapper.selectList(suibiQueryWrapper);
             }else {
                 QueryWrapper<Suibi> suibiQueryWrapper = new QueryWrapper<>();
-                suibiQueryWrapper.lt("suibi_id",lastSuibiId).orderByDesc("suibi_time").last("LIMIT 10");
+                suibiQueryWrapper.lt("suibi_id",lastSuibiId).orderByDesc("suibi_time").last("LIMIT " + OnePageCount.SUIBI_COUNT_ONE_PAGE);
                 suibis = suibiMapper.selectList(suibiQueryWrapper);
             }
 

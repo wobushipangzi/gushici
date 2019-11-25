@@ -77,7 +77,6 @@ public class CommentController {
                 globalResult = GlobalResult.error();
             }
         }catch (GlobalException e){
-            logger.error("调用保存评论并入库消息通知表异常{}", e);
             globalResult = GlobalResult.error();
         }catch (Exception e){
             logger.error("发表评论接口异常{}", e);
@@ -104,7 +103,6 @@ public class CommentController {
                 globalResult = GlobalResult.error();
             }
         }catch (GlobalException e){
-            logger.error("调用保存回复接口异常{}", e);
             globalResult = GlobalResult.error();
         }catch (Exception e){
             logger.error("系统错误异常{}", e);
