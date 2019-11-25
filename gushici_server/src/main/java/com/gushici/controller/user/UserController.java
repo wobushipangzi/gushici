@@ -189,6 +189,7 @@ public class UserController {
             String value = openId + "_" + sessionKey;
             RedisUtils.setAndTime(key,value,Xiaochengxu.FIFTEEN_DAY);
 
+            user.setOpenId(openId);
             user.setLoginTime(new Date());
             globalResult = userService.updateUser(user);
             if (!ResultCode.处理成功.getCode().equals(globalResult.getCode())) {
