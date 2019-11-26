@@ -56,7 +56,7 @@ public interface SuibiService {
      * @param suibiId  随笔id
      * @return
      */
-    GlobalResult delSuibiBySuibiId(String suibiId, List files);
+    GlobalResult delSuibiBySuibiId(String suibiId, List<String> files);
 
     /**
      * 相关随笔的评论数加1

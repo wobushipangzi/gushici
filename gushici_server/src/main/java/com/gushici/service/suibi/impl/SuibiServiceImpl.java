@@ -262,11 +262,16 @@ public class SuibiServiceImpl implements SuibiService {
      */
     @Override
     @Transactional
-    public GlobalResult delSuibiBySuibiId(String suibiId, List files) {
-        GlobalResult globalResult;
+    public GlobalResult delSuibiBySuibiId(String suibiId, List<String> files) {
+        GlobalResult globalResult = GlobalResult.success();
         try {
-            ExecutorService executorService = ThreadPool.newExecutorInstance();
-            Future<GlobalResult> submit = executorService.submit(() -> OOSUtils.delToOOS(files));
+            if(files != null && files.size() > 0){
+                globalResult = OOSUtils.delToOOS(files);
+                if(!ResultCode.处理成功.getCode().equals(globalResult.getCode())){
+                    logger.error("通过随笔id删除随笔记录接口OOS删除数据失败，执行结果为{}", JSONObject.toJSONString(globalResult));
+                    throw new GlobalException(ResultCode.OOS删除数据失败.getCode(),ResultCode.OOS删除数据失败.getMsg());
+                }
+            }
 
             QueryWrapper<Suibi> suibiQueryWrapper = new QueryWrapper<>();
             suibiQueryWrapper.eq("suibi_id",suibiId);
@@ -275,11 +280,8 @@ public class SuibiServiceImpl implements SuibiService {
                 logger.error("通过随笔id删除随笔记录接口数据库删除数据失败，执行结果为{}", delete);
                 throw new GlobalException(ResultCode.数据库删除数据失败.getCode(),ResultCode.数据库删除数据失败.getMsg());
             }
-            globalResult = submit.get();
-            if(!ResultCode.处理成功.getCode().equals(globalResult.getCode())){
-                logger.error("通过随笔id删除随笔记录接口OOS删除数据失败，执行结果为{}", JSONObject.toJSONString(globalResult));
-                throw new GlobalException(ResultCode.OOS删除数据失败.getCode(),ResultCode.OOS删除数据失败.getMsg());
-            }
+
+
             HashMap<String, String> dataMap = new HashMap<>();
             dataMap.put("isSuccess","yes");
             globalResult.setData(dataMap);

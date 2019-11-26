@@ -36,45 +36,14 @@ public class SuibiController {
     @RequestMapping(value = "/uploadContent", method = RequestMethod.POST)
     @ResponseBody
     @Transactional
-    public GlobalResult uploadContent(@RequestParam String openId, @RequestParam String content, @RequestParam MultipartFile img1,
-                                      @RequestParam MultipartFile img2, @RequestParam MultipartFile img3, @RequestParam MultipartFile img4,
-                                      @RequestParam MultipartFile img5, @RequestParam MultipartFile img6, @RequestParam MultipartFile img7,
-                                      @RequestParam MultipartFile img8, @RequestParam MultipartFile img9) {
-        logger.info("用户{}随笔文字内容上传接口入参为：==>{}", openId, content);
+    public GlobalResult uploadContent(@RequestParam String openId, @RequestParam String content, @RequestParam List<MultipartFile> imgList) {
+        logger.info("用户{}随笔文字内容上传接口入参为：==>{},imgList{}", openId, content, JSONObject.toJSONString(imgList));
         GlobalResult globalResult = GlobalResult.success();
         try {
-            if (StringUtils.isEmpty(openId) && StringUtils.isEmpty(content)) {
+            if(StringUtils.isEmpty(content) && (null == imgList || imgList.size() == 0)){
                 globalResult.setCode(ResultCode.传入参数不合法.getCode());
                 globalResult.setMessage(ResultCode.传入参数不合法.getMsg());
                 return globalResult;
-            }
-            List<MultipartFile> imgList = new ArrayList<>();
-            if (img1 != null && null != img1.getInputStream()) {
-                imgList.add(img1);
-            }
-            if (img2 != null && null != img2.getInputStream()) {
-                imgList.add(img2);
-            }
-            if (img3 != null && null != img3.getInputStream()) {
-                imgList.add(img3);
-            }
-            if (img4 != null && null != img4.getInputStream()) {
-                imgList.add(img4);
-            }
-            if (img5 != null && null != img5.getInputStream()) {
-                imgList.add(img5);
-            }
-            if (img6 != null && null != img6.getInputStream()) {
-                imgList.add(img6);
-            }
-            if (img7 != null && null != img7.getInputStream()) {
-                imgList.add(img7);
-            }
-            if (img8 != null && null != img8.getInputStream()) {
-                imgList.add(img8);
-            }
-            if (img9 != null && null != img9.getInputStream()) {
-                imgList.add(img9);
             }
             globalResult = suibiService.saveSuibiContent(openId, content, imgList);
 
