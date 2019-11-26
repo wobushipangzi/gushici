@@ -80,7 +80,7 @@ public class SuibiController {
             if (null == suibi) {
                 logger.error("没有查到随笔内容");
                 globalResult.setCode(ResultCode.该内容不存在.getCode());
-                globalResult.setCode(ResultCode.该内容不存在.getMsg());
+                globalResult.setMessage(ResultCode.该内容不存在.getMsg());
                 return globalResult;
             }
 

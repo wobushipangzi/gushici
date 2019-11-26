@@ -79,6 +79,9 @@ public class SuibiServiceImpl implements SuibiService {
             suibi.setContent(content);
             suibi.setOpenId(openId);
             suibi.setSuibiTime(date);
+            suibi.setIsGood("0");
+            suibi.setCommentCount("0");
+            suibi.setPraiseCount("0");
 
             ExecutorService executorService = ThreadPool.newExecutorInstance();
             List<Future> taskList = new ArrayList<>();
