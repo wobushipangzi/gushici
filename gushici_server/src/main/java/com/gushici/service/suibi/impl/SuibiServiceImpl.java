@@ -170,7 +170,6 @@ public class SuibiServiceImpl implements SuibiService {
             for (Suibi suibi : suibis) {
                 Map<String, Object> suibiHashMap = new HashMap<>();
                 suibiHashMap.put("suibiId", String.valueOf(suibi.getSuibiId()));
-                suibiHashMap.put("praiseCount", suibi.getPraiseCount());
                 if (StringUtils.isNotEmpty(suibi.getContent())) {
                     suibiHashMap.put("content", suibi.getContent());
                 }
@@ -183,7 +182,7 @@ public class SuibiServiceImpl implements SuibiService {
                 suibiHashMap.put("imgList",imgList);
                 String suibiTime = DateTimeUtils.computeTime(suibi.getSuibiTime().getTime());
                 suibiHashMap.put("suibiTime", suibiTime);
-                suibiHashMap.put("isGood", suibi.getIsGood());
+                suibiHashMap.put("isGood", StringUtils.isBlank(suibi.getIsGood())? 0 : Integer.valueOf(suibi.getIsGood()));
 
                 //查询发表人的相关信息
                 QueryWrapper<User> userQueryWrapper = new QueryWrapper<>();
@@ -193,8 +192,8 @@ public class SuibiServiceImpl implements SuibiService {
                 suibiHashMap.put("userName", user.getName());
                 suibiHashMap.put("headPhoto", user.getHeadPhotoUrl());
 
-                suibiHashMap.put("commentCount", StringUtils.isEmpty(suibi.getCommentCount()) ? "0" : suibi.getCommentCount());
-                suibiHashMap.put("praiseCount", StringUtils.isEmpty(suibi.getPraiseCount()) ? "0" : suibi.getPraiseCount());
+                suibiHashMap.put("commentCount", StringUtils.isEmpty(suibi.getCommentCount()) ? 0 : Integer.valueOf(suibi.getCommentCount()));
+                suibiHashMap.put("praiseCount", StringUtils.isEmpty(suibi.getPraiseCount()) ? 0 : Integer.valueOf(suibi.getPraiseCount()));
 
                 suibiDetails.add(suibiHashMap);
             }
