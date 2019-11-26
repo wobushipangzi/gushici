@@ -124,7 +124,7 @@ public class SuibiController {
 
             //查询10条随笔数据
             globalResult = suibiService.getFifSuibis(lastSuibiId);
-            logger.info("获取推荐页数据接口出参为：==>{}", JSONObject.toJSONString(globalResult));
+            //logger.info("获取推荐页数据接口出参为：==>{}", JSONObject.toJSONString(globalResult));
             if(!ResultCode.处理成功.getCode().equals(globalResult.getCode())){
                 logger.error("调用获取推荐页数据失败");
                 globalResult = GlobalResult.error();
