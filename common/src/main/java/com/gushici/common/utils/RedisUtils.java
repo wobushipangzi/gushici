@@ -72,7 +72,7 @@ public class RedisUtils {
 		String val = null;
 		Jedis jedis = getJedis();
 		try {
-			logger.info("key=" + key + ",value=" + value);
+			//logger.info("key=" + key + ",value=" + value);
 			value = StringUtils.isEmpty(value) ? "" : value;
 			val = jedis.set(key, value);
 		} catch (Exception e) {
