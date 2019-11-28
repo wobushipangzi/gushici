@@ -80,7 +80,7 @@ public class SuibiController {
     @Transactional
     public GlobalResult uploadSuibi(@RequestParam String openId, @RequestParam String content, @RequestParam MultipartFile img,
                                     @RequestParam String suibiId, @RequestParam String imgCount) {
-        logger.info("用户{}随笔文字内容上传接口入参为：==>{},img:{},suibiId:{}", openId, content, img, suibiId);
+        logger.info("用户{}随笔文字内容上传接口入参为：==>{},img:{},suibiId:{},imgCount:{}", openId, content, img, suibiId, imgCount);
         GlobalResult globalResult = GlobalResult.success();
         try {
             //如果随笔id为空，用户是第一次调用接口，存入openId和内容即可，返回suibiId， 同时将img信息以json的方式存入redis
@@ -109,7 +109,7 @@ public class SuibiController {
                 imgList.add(imgMap);
                 imgsJson = JSONObject.toJSONString(imgList);
                 System.out.println("===========json为" + imgsJson);
-                RedisUtils.set(key, imgsJson);
+                RedisUtils.setAndTime(key, imgsJson, Xiaochengxu.THREE_MIN_SECONDS);
             }
 
             //在redis拿到图片信息，如果长度和imgCount相等，批量操作上传OOS并入库
@@ -191,7 +191,7 @@ public class SuibiController {
         imgMap.put("imgBase64", imgBase64);
         imgList.add(imgMap);
         String imgsJson = JSONObject.toJSONString(imgList);
-        RedisUtils.set(key, imgsJson);
+        RedisUtils.setAndTime(key, imgsJson, Xiaochengxu.THREE_MIN_SECONDS);
     }
 
 

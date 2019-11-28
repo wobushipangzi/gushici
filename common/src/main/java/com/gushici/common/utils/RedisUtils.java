@@ -126,7 +126,7 @@ public class RedisUtils {
 		String val = null;
 		Jedis jedis = getJedis();
 		try {
-			logger.info("key=" + key + ",seconds=" + seconds + ",value=" + value);
+			//logger.info("key=" + key + ",seconds=" + seconds + ",value=" + value);
 			value = StringUtils.isEmpty(value) ? "" : value;
 			val = jedis.setex(key, seconds, value);
 		} catch (Exception e) {

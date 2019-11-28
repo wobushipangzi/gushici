@@ -21,4 +21,6 @@ public class Xiaochengxu {
 
     public static final Integer FIFTEEN_DAY = 60 * 60 * 24 * 15;  //15天的秒数
 
+    public static final Integer THREE_MIN_SECONDS = 60 * 3;  //3分钟的秒数
+
 }
