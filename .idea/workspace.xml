@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8aa023e1-00da-4b3e-b123-50a6bd070346" name="Default" comment="修改发表随笔接口，修复无配图随笔删除时，系统报错bug">
+    <list default="true" id="8aa023e1-00da-4b3e-b123-50a6bd070346" name="Default" comment="发表随笔内容时，添加默认参数">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/suibi/xml/SuibiMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/Xiaochengxu.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/Xiaochengxu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/OOSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/OOSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/resources/jedis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/resources/jedis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/gushici/common/smallprogram/Xiaochengxu.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/gushici/common/smallprogram/Xiaochengxu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/gushici/common/utils/OOSUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/gushici/common/utils/OOSUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/jedis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/jedis.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/common-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka_server/target/eureka_server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/eureka_server-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka_server/target/eureka_server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/eureka_server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka_server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/suibi/SuibiMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/suibi/SuibiMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/SuibiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/SuibiService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/SuibiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/SuibiServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gushici_server/src/test/java/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/src/test/java/Date.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gushici_server/target/classes/com/gushici/controller/forum/SuibiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/target/classes/com/gushici/controller/forum/SuibiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gushici_server/target/classes/com/gushici/mapper/suibi/SuibiMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/target/classes/com/gushici/mapper/suibi/SuibiMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gushici_server/target/classes/com/gushici/service/suibi/SuibiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/target/classes/com/gushici/service/suibi/SuibiService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gushici_server/target/classes/com/gushici/service/suibi/impl/SuibiServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/target/classes/com/gushici/service/suibi/impl/SuibiServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gushici_server/target/gushici_server-0.0.1-SNAPSHOT-exec.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/target/gushici_server-0.0.1-SNAPSHOT-exec.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gushici_server/target/gushici_server-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/target/gushici_server-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gushici_server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gushici_server/target/test-classes/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/gushici_server/target/test-classes/Date.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/product/target/" />
@@ -292,19 +308,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/user/UserController.java">
+        <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="261" column="30" selection-start-line="261" selection-start-column="23" selection-end-line="261" selection-end-column="30" />
+            <state relative-caret-position="231">
+              <caret line="157" column="14" selection-start-line="157" selection-start-column="14" selection-end-line="157" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/RedisUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+            <state relative-caret-position="190">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#1493#1494#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/resources/jedis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/OOSUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-310">
+              <caret line="167" column="31" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/CommonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -315,8 +364,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/SuibiService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="182">
+              <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -324,43 +373,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/SuibiServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+            <state relative-caret-position="119">
+              <caret line="348" column="22" selection-start-line="348" selection-start-column="22" selection-end-line="348" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/forum/Suibi.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/Xiaochengxu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-              <folding>
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1310#1311#0" expanded="true" />
-                <element signature="e#1354#1355#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1496#1497#0" expanded="true" />
-                <element signature="e#1532#1533#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/GushiciServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/OOSUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="204" column="31" selection-start-line="204" selection-start-column="31" selection-end-line="204" selection-end-column="31" />
+            <state relative-caret-position="286">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -374,16 +397,13 @@
         <option value="FxmlFile" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reignId</find>
-      <find>关注</find>
-      <find>更多</find>
-      <find>@Param</find>
       <find>limit</find>
       <find>page</find>
       <find>ProductServiceImpl</find>
@@ -410,6 +430,10 @@
       <find>更新数据库失败</find>
       <find>微信服务器返回数据为</find>
       <find>runtimeex</find>
+      <find>union</find>
+      <find>未知异常！原因是:</find>
+      <find>select</find>
+      <find>举报</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -425,11 +449,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/user/impl/MessageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/gushici_server/src/main/resources/templates/ddjBaoMing.fxml" />
-        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/daodejing/ApplyUser.java" />
-        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/daodejing/impl/ApplyUserImpl.java" />
-        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/daodejing/ApplyUserMapper.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/daodejing/ApplyUserMapper.xml" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/daodejing/ApplyUserService.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/daodejing/impl/ApplyUserServiceImpl.java" />
@@ -459,23 +478,28 @@
         <option value="$PROJECT_DIR$/common/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/gushici_server/src/test/java/Testt.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/AliOOS.java" />
-        <option value="$PROJECT_DIR$/gushici_server/src/test/java/Date.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/forum/Suibi.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/ThreadPool.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/ReportService.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/ReportServiceImpl.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/user/UserService.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/user/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/OOSUtils.java" />
         <option value="$PROJECT_DIR$/common/src/test/java/Data.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/OnePageCount.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/CommentController.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/product/ProductController.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/CommentType.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/user/UserController.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/test/java/Date.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/suibi/SuibiMapper.java" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/suibi/xml/SuibiMapper.xml" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/Xiaochengxu.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/CommonUtils.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/OOSUtils.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/SuibiService.java" />
-        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java" />
         <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/SuibiServiceImpl.java" />
+        <option value="$PROJECT_DIR$/common/src/main/resources/jedis.properties" />
+        <option value="$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java" />
       </list>
     </option>
   </component>
@@ -511,8 +535,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="910" />
-    <option name="y" value="125" />
+    <option name="x" value="690" />
+    <option name="y" value="25" />
     <option name="width" value="1410" />
     <option name="height" value="815" />
   </component>
@@ -599,8 +623,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -611,11 +633,6 @@
             <path>
               <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
               <item name="gushici" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gushici" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -647,6 +664,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
@@ -671,6 +698,24 @@
             <path>
               <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
               <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
               <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -764,6 +809,39 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="suibi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="suibi" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -811,6 +889,21 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gushici" type="462c0819:PsiDirectoryNode" />
+              <item name="gushici_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gushici" type="b2602c69:ProjectViewProjectNode" />
@@ -846,6 +939,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1040,8 +1135,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GushiciServerApplication (2)" />
-        <item itemvalue="JUnit.Data.test1" />
         <item itemvalue="Application.Date" />
+        <item itemvalue="JUnit.Data.test1" />
         <item itemvalue="Application.Testt" />
         <item itemvalue="JUnit.ShuiYin.shuiyin" />
       </list>
@@ -1190,7 +1285,11 @@
       <workItem from="1574521213697" duration="1481000" />
       <workItem from="1574645651189" duration="2627000" />
       <workItem from="1574684410743" duration="2683000" />
-      <workItem from="1574732136160" duration="8614000" />
+      <workItem from="1574732136160" duration="13444000" />
+      <workItem from="1574777457339" duration="2985000" />
+      <workItem from="1574818326279" duration="8043000" />
+      <workItem from="1574902728651" duration="8989000" />
+      <workItem from="1574942098386" duration="8005000" />
     </task>
     <task id="LOCAL-00001" summary="修复更新用户登录时间不能入库bug">
       <created>1574692825229</created>
@@ -1206,7 +1305,28 @@
       <option name="project" value="LOCAL" />
       <updated>1574740942038</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="发表随笔内容时，添加默认参数">
+      <created>1574754895712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574754895712</updated>
+    </task>
+    <task id="LOCAL-00004" summary="取消获取随笔的数据打印">
+      <created>1574761738695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574761738695</updated>
+    </task>
+    <task id="LOCAL-00005" summary="获取随笔数据时，点赞数，加精，评论数，改为int类型返给前端">
+      <created>1574764878477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574764878477</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1242,7 +1362,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="986274000" />
+    <option name="totallyTimeSpent" value="1019126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1255,9 +1375,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.19638069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.19839142" />
       <window_info id="Structure" order="1" weight="0.21313673" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -1268,7 +1387,7 @@
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.48980686" weight="0.3281471" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.46512875" weight="0.4348442" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4644772" weight="0.34560907" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.44571045" weight="0.4036827" />
@@ -1278,7 +1397,7 @@
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32915717" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.46648794" weight="0.32152975" />
       <window_info anchor="bottom" id="Statistic" order="12" sideWeight="0.42972103" weight="0.32915717" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5542895" side_tool="true" weight="0.4036827" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.53552276" side_tool="true" weight="0.4220963" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1344,7 +1463,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修复更新用户登录时间不能入库bug" />
     <MESSAGE value="修改发表随笔接口，修复无配图随笔删除时，系统报错bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改发表随笔接口，修复无配图随笔删除时，系统报错bug" />
+    <MESSAGE value="发表随笔内容时，添加默认参数" />
+    <MESSAGE value="取消获取随笔的数据打印" />
+    <MESSAGE value="获取随笔数据时，点赞数，加精，评论数，改为int类型返给前端" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取随笔数据时，点赞数，加精，评论数，改为int类型返给前端" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1365,96 +1487,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/src/main/resources/statics/shuiyin.png" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/resources/jedis.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="43" selection-start-line="43" selection-end-line="46" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/javax/swing/ImageIcon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="164" column="15" selection-start-line="164" selection-start-column="15" selection-end-line="164" selection-end-column="15" />
-          <folding>
-            <element signature="e#5677#5678#0" expanded="true" />
-            <element signature="e#5717#5718#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/HttpClientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="94" column="16" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/test/java/ShuiYin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="23" column="90" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_server/src/main/java/com/gushici/eurkaserver/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/filter/UnifyControllerAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/resources/statics/distpicker.data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/test/java/Testt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/test/java/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/ideaMaven/ziyongIdeaRepMaven/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar!/javax/validation/constraints/Null.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -1512,20 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1540">
           <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/ReportService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/ReportServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1648,13 +1666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/Xiaochengxu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/product/AuthorController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2024">
@@ -1704,42 +1715,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/OOSUtils.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/DecodeUserInfoUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="204" column="31" selection-start-line="204" selection-start-column="31" selection-end-line="204" selection-end-column="31" />
+        <state relative-caret-position="330">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/GushiciServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/filter/UnifyControllerAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+        <state relative-caret-position="682">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/SuibiService.java">
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/user/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="990">
+          <caret line="674" column="41" lean-forward="true" selection-start-line="674" selection-start-column="41" selection-end-line="674" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/ReportServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/user/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/test/java/ShuiYin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="90" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/suibi/xml/ReplyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" lean-forward="true" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/bean/forum/Suibi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+        <state relative-caret-position="594">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
             <element signature="e#1281#1282#0" expanded="true" />
             <element signature="e#1310#1311#0" expanded="true" />
             <element signature="e#1354#1355#0" expanded="true" />
@@ -1750,17 +1794,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/SuibiServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/suibi/SuibiMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+        <state relative-caret-position="286">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/user/UserController.java">
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/mapper/suibi/xml/SuibiMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="261" column="30" selection-start-line="261" selection-start-column="23" selection-end-line="261" selection-end-column="30" />
+        <state relative-caret-position="264">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/test/java/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/smallprogram/Xiaochengxu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/WebMvcConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/OOSUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="167" column="31" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/GushiciServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/gushici/common/utils/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#1493#1494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/resources/jedis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/SuibiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/service/suibi/impl/SuibiServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="348" column="22" selection-start-line="348" selection-start-column="22" selection-end-line="348" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gushici_server/src/main/java/com/gushici/controller/forum/SuibiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="157" column="14" selection-start-line="157" selection-start-column="14" selection-end-line="157" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

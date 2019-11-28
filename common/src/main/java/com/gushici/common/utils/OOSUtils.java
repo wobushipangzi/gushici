@@ -14,6 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.validation.constraints.Null;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
@@ -85,7 +86,7 @@ public class OOSUtils {
     /**
      * 给图片添加图片水印
      */
-    public static InputStream markImageByMoreIcon(MultipartFile file, Integer degree) {
+    public static InputStream markImageByMoreIcon(MultipartFile file, Integer degree, InputStream inputStream, String format) {
         logger.info("开始添加图片水印");
         ByteArrayOutputStream os = new ByteArrayOutputStream();
         try {
@@ -96,7 +97,13 @@ public class OOSUtils {
             //icon宽
             int icWidth = ic.getWidth(null);
             //将源图片读到内存中
-            Image img = ImageIO.read(file.getInputStream());
+            Image img = null;
+            if(null != file && null == inputStream){
+                img = ImageIO.read(file.getInputStream());
+            }else if(null == file && null != inputStream){
+                img = ImageIO.read(inputStream);
+            }
+
             //图片宽
             int width = img.getWidth(null);
             //图片高
@@ -129,8 +136,12 @@ public class OOSUtils {
             }finally {
                 g.dispose();
             }
-            String[] splitArr = file.getOriginalFilename().split("\\.");
-            String format = splitArr[splitArr.length - 1];  //获取到的格式名字
+
+            if(null != file && null == inputStream){
+                String[] splitArr = file.getOriginalFilename().split("\\.");
+                format = splitArr[splitArr.length - 1];  //获取到的格式名字
+            }
+
             ImageIO.write(bi, format, os); // 保存图片
             logger.info("图片添加水印完成");
             return new ByteArrayInputStream(os.toByteArray());

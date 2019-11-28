@@ -11,6 +11,8 @@ public class Xiaochengxu {
 
     public static final String PERFIX = "gushici";  //redis存数据时 key的前缀
 
+    public static final String SUIBI_PERFIX = "suibi_img";
+
     public static final Integer ONE_MINUTE = 60 * 1000;    //一分钟的毫秒数
 
     public static final Integer ONE_HOUR = 60 * 1000 * 60;  //一小时的毫秒数

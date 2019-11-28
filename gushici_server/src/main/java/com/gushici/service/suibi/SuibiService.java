@@ -63,4 +63,17 @@ public interface SuibiService {
      * @param topicId  随笔id
      */
     Integer addCommentCount(String topicId);
+
+    /**
+     * 保存随笔内容和openId
+     * @return
+     */
+    Integer saveSuibi(String openId, String content);
+
+    /**
+     * 更新随笔内容
+     * @param suibi
+     * @return
+     */
+    Integer updateSuibi(Suibi suibi);
 }

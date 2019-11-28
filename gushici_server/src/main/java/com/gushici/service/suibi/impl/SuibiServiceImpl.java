@@ -93,7 +93,7 @@ public class SuibiServiceImpl implements SuibiService {
                     String format = splitArr[splitArr.length - 1];
                     if(!"MP4".equals(format.toUpperCase()) && !"GIF".equals(format.toUpperCase())){
                         //图片添加水印
-                        InputStream inputStream = OOSUtils.markImageByMoreIcon(img, null);
+                        InputStream inputStream = OOSUtils.markImageByMoreIcon(img, null, null, null);
                         //上传添加水印后的图片到OOS
                         result = OOSUtils.uploadToOOS(inputStream, AliOOS.SUIBI_PICTURE, format);
                         if (!ResultCode.处理成功.getCode().equals(result.getCode())) {
@@ -320,6 +320,40 @@ public class SuibiServiceImpl implements SuibiService {
         suibiUpdate.eq("suibi_id",topicId);
         suibi.setCommentCount(String.valueOf(commentCount));
         return suibiMapper.update(suibi,suibiUpdate);
+    }
+
+
+    /**
+     * 保存随笔内容和openId
+     * @return
+     */
+    @Override
+    public Integer saveSuibi(String openId, String content) {
+        Suibi suibi = new Suibi();
+        suibi.setOpenId(openId);
+        suibi.setContent(content);
+        suibi.setSuibiTime(new Date());
+        suibi.setPraiseCount("0");
+        suibi.setIsGood("0");
+        suibi.setCommentCount("0");
+        suibiMapper.insertSuibi(suibi);
+        return suibi.getSuibiId();
+    }
+
+    /**
+     * 更新随笔内容
+     * @param suibi
+     * @return
+     */
+    @Override
+    public Integer updateSuibi(Suibi suibi) {
+        QueryWrapper<Suibi> suibiQueryWrapper = new QueryWrapper<>();
+        suibiQueryWrapper.eq("suibi_id",suibi.getSuibiId());
+        int update = suibiMapper.update(suibi, suibiQueryWrapper);
+        if(update <= 0){
+            throw new GlobalException(ResultCode.更新数据库失败.getCode(), ResultCode.更新数据库失败.getMsg());
+        }
+        return update;
     }
 
 
