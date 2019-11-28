@@ -218,12 +218,14 @@ public class SuibiController {
             }
 
             List<String> files = new ArrayList<>();
-            String imgUrlJson = suibi.getImgUrl();
-            List imgUrlList = JSONObject.parseObject(imgUrlJson, List.class);
-            for (Object o : imgUrlList) {
-                String imgUrl = String.valueOf(o);
-                if (StringUtils.isNotEmpty(imgUrl) && imgUrl.contains("//gushici.oss-cn-beijing.aliyuncs.com/")) {
-                    files.add(imgUrl.split("//gushici.oss-cn-beijing.aliyuncs.com/")[1]);
+            if(StringUtils.isNotEmpty(suibi.getImgUrl())){
+                String imgUrlJson = suibi.getImgUrl();
+                List imgUrlList = JSONObject.parseObject(imgUrlJson, List.class);
+                for (Object o : imgUrlList) {
+                    String imgUrl = String.valueOf(o);
+                    if (StringUtils.isNotEmpty(imgUrl) && imgUrl.contains("//gushici.oss-cn-beijing.aliyuncs.com/")) {
+                        files.add(imgUrl.split("//gushici.oss-cn-beijing.aliyuncs.com/")[1]);
+                    }
                 }
             }
 
