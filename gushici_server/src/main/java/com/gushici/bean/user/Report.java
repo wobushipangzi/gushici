@@ -30,6 +30,8 @@ public class Report implements Serializable {
 
     private String picture;  //举报截图
 
+    private String reportType;  //被举报类型
+
     private Date reportTime;  //举报时间
 
     public Integer getReportId() {
@@ -102,6 +104,14 @@ public class Report implements Serializable {
 
     public void setPicture(String picture) {
         this.picture = picture;
+    }
+
+    public String getReportType() {
+        return reportType;
+    }
+
+    public void setReportType(String reportType) {
+        this.reportType = reportType;
     }
 
     public Date getReportTime() {

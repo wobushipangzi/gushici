@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gushici.mapper.suibi.ReportMapper">
+
+    <!-- 保存随笔   返回新增主键 -->
+    <insert id="insertReport" parameterType="com.gushici.bean.user.Report">
+        <selectKey resultType="int" keyProperty="reportId" order="AFTER" >
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into tb_report (comment_id, reply_id, suibi_id, description, classify, from_open_id, to_open_id, report_type, report_time)
+        values (#{commentId}, #{replyId}, #{suibiId}, #{description}, #{classify}, #{fromOpenId}, #{toOpenId}, #{reportType}, #{reportTime})
+    </insert>
+</mapper>

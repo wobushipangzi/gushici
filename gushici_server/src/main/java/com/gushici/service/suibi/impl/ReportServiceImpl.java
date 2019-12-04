@@ -40,14 +40,17 @@ public class ReportServiceImpl implements ReportService {
             Report report = JSONObject.parseObject(jsonData, Report.class);
             Date date = new Date();
             report.setReportTime(date);
-            int insert = reportMapper.insert(report);
+            int insert = reportMapper.insertReport(report);
             if(insert <= 0){
                 logger.error("举报接口保存数据库失败");
                 throw new GlobalException(ResultCode.数据库新增数据失败.getCode(), ResultCode.数据库新增数据失败.getMsg());
             }
-
+            String reportId = String.valueOf(report.getReportId());
+            HashMap<String, String> dataMap = new HashMap<>();
+            dataMap.put("reportId",reportId);
+            globalResult.setData(dataMap);
             //查询刚插入的举报id
-            Report reportOne = reportService.getReportOne(report.getFromOpenId(), report.getToOpenId(), date);
+            /*Report reportOne = reportService.getReportOne(report.getFromOpenId(), report.getToOpenId(), date);
             if(null != reportOne){
                 HashMap<String, String> dataMap = new HashMap<>();
                 dataMap.put("reportId",String.valueOf(reportOne.getReportId()));
@@ -55,7 +58,7 @@ public class ReportServiceImpl implements ReportService {
             }else {
                 logger.error("查询刚插入的举报id失败");
                 throw new GlobalException(ResultCode.查询数据库失败.getCode(), ResultCode.查询数据库失败.getMsg());
-            }
+            }*/
         }catch (Exception e){
             logger.error("保存举报的内容接口异常", e);
             throw new GlobalException(ResultCode.系统错误.getCode(), ResultCode.系统错误.getMsg());

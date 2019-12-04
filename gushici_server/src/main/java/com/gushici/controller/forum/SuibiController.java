@@ -108,8 +108,10 @@ public class SuibiController {
                 imgMap.put("imgBase64", imgBase64);
                 imgList.add(imgMap);
                 imgsJson = JSONObject.toJSONString(imgList);
-                System.out.println("===========json为" + imgsJson);
                 RedisUtils.setAndTime(key, imgsJson, Xiaochengxu.THREE_MIN_SECONDS);
+                HashMap<String, String> dataMap = new HashMap<>();
+                dataMap.put("suibiId", suibiId);
+                globalResult.setData(dataMap);
             }
 
             //在redis拿到图片信息，如果长度和imgCount相等，批量操作上传OOS并入库

@@ -1,7 +1,7 @@
 package com.gushici.common.utils;
 
-import org.apache.log4j.Logger;
-import org.springframework.stereotype.Component;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
@@ -18,7 +18,7 @@ import java.util.Set;
  */
 public class RedisUtils {
 
-	private static Logger logger = Logger.getLogger(RedisUtils.class);
+	private static Logger logger = LoggerFactory.getLogger(RedisUtils.class);
 
 
 	private RedisUtils() {}
@@ -149,7 +149,7 @@ public class RedisUtils {
 	 */
 	public static String get(String key) {
 
-		logger.info("根据 key值 获取value=" + key);
+		logger.info("根据 key值:{} 获取value", key);
 		String val = null;
 		Jedis jedis = getJedis();
 		if(null != jedis){
