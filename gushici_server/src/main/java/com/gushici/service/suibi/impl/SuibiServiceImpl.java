@@ -4,9 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.gushici.bean.forum.Suibi;
 import com.gushici.bean.product.Product;
-import com.gushici.bean.user.Comment;
-import com.gushici.bean.user.Reply;
-import com.gushici.bean.user.User;
+import com.gushici.bean.user.*;
 import com.gushici.common.result.GlobalException;
 import com.gushici.common.result.GlobalResult;
 import com.gushici.common.result.ResultCode;
@@ -16,9 +14,7 @@ import com.gushici.common.smallprogram.OnePageCount;
 import com.gushici.common.utils.DateTimeUtils;
 import com.gushici.common.utils.OOSUtils;
 import com.gushici.common.utils.ThreadPool;
-import com.gushici.mapper.suibi.SuibiMapper;
-import com.gushici.mapper.suibi.CommentMapper;
-import com.gushici.mapper.suibi.ReplyMapper;
+import com.gushici.mapper.suibi.*;
 import com.gushici.mapper.user.UserMapper;
 import com.gushici.service.suibi.SuibiService;
 import org.apache.commons.lang.StringUtils;
@@ -61,17 +57,22 @@ public class SuibiServiceImpl implements SuibiService {
     @Autowired
     private SuibiService suibiService;
 
+    @Autowired
+    private ReportMapper reportMapper;
+
+    @Autowired
+    private PraiseMapper praiseMapper;
+
 
     /**
      * 随笔文字配图内容入库
      * @param openId   用户openId
      * @param content   随笔的文字内容
-     * @param imgList   随笔配图
      * @return GlobalResult
      */
     @Override
     @Transactional
-    public GlobalResult saveSuibiContent(String openId, String content, List<MultipartFile> imgList) {
+    public GlobalResult saveSuibiContent(String openId, String content) {
         GlobalResult globalResult = GlobalResult.success();
         try {
             Date date = new Date();
@@ -83,62 +84,13 @@ public class SuibiServiceImpl implements SuibiService {
             suibi.setCommentCount("0");
             suibi.setPraiseCount("0");
 
-            ExecutorService executorService = ThreadPool.newExecutorInstance();
-            List<Future> taskList = new ArrayList<>();
-            for (MultipartFile img : imgList) {
-                Future<GlobalResult> submit = executorService.submit(() -> {
-                    GlobalResult result;
-                    //获取文件后缀名
-                    String[] splitArr = img.getOriginalFilename().split("\\.");
-                    String format = splitArr[splitArr.length - 1];
-                    if(!"MP4".equals(format.toUpperCase()) && !"GIF".equals(format.toUpperCase())){
-                        //图片添加水印
-                        InputStream inputStream = OOSUtils.markImageByMoreIcon(img, null, null, null);
-                        //上传添加水印后的图片到OOS
-                        result = OOSUtils.uploadToOOS(inputStream, AliOOS.SUIBI_PICTURE, format);
-                        if (!ResultCode.处理成功.getCode().equals(result.getCode())) {
-                            logger.error("上传随笔配图至OOS失败");
-                            throw new GlobalException(result.getCode(), result.getMessage());
-                        }
-                    }else {
-                        //上传添加水印后的图片到OOS
-                        result = OOSUtils.uploadToOOS(img.getInputStream(), AliOOS.SUIBI_PICTURE, format);
-                        if (!ResultCode.处理成功.getCode().equals(result.getCode())) {
-                            logger.error("上传随笔配图至OOS失败");
-                            throw new GlobalException(result.getCode(), result.getMessage());
-                        }
-                    }
-                    return result;
-                });
-                taskList.add(submit);
-            }
-
-            ArrayList<String> imgUrlList = new ArrayList<>();
-            for (Future future : taskList) {
-                try {
-                    Object o = future.get();
-                    GlobalResult result = JSONObject.parseObject(JSONObject.toJSONString(o), GlobalResult.class);
-                    //获取随笔图片在OOS的地址
-                    Map jsonDataMap = JSONObject.parseObject(JSONObject.toJSONString(result.getData()), Map.class);
-                    String imgUrl = jsonDataMap.get("uploadUrl").toString();
-                    imgUrlList.add(imgUrl);
-                } catch (InterruptedException e) {
-                    logger.error("线程挂起异常", e);
-                    throw new GlobalException(ResultCode.系统错误.getCode(), ResultCode.系统错误.getMsg());
-                } catch (ExecutionException e) {
-                    logger.error("线程执行异常", e);
-                    throw new GlobalException(ResultCode.系统错误.getCode(), ResultCode.系统错误.getMsg());
-                }
-            }
-
-            String urlJson = JSONObject.toJSONString(imgUrlList);
-            suibi.setImgUrl(urlJson);
-            int insert = suibiMapper.insert(suibi);
-
+            int insert = suibiMapper.insertSuibi(suibi);
             if(insert <= 0){
                 logger.error("随笔文字入库失败");
                 throw new GlobalException(ResultCode.系统错误.getCode(), ResultCode.系统错误.getMsg());
             }
+            HashMap<String, String> dataMap = new HashMap<>();
+            dataMap.put("suibiId",String.valueOf(suibi.getSuibiId()));
         }catch (Exception e){
             logger.error("上传随笔接口异常", e);
             throw new GlobalException(ResultCode.系统错误.getCode(), ResultCode.系统错误.getMsg());
@@ -152,7 +104,7 @@ public class SuibiServiceImpl implements SuibiService {
      * @param lastSuibiId   前端返回的最后一条数据的id
      */
     @Override
-    public GlobalResult getFifSuibis(String lastSuibiId) {
+    public GlobalResult getFifSuibis(String lastSuibiId, String openId) {
         GlobalResult globalResult = GlobalResult.success();
         try {
             List<Object> suibiDetails = new ArrayList<>();
@@ -166,6 +118,29 @@ public class SuibiServiceImpl implements SuibiService {
                 suibiQueryWrapper.lt("suibi_id",lastSuibiId).orderByDesc("suibi_time").last("LIMIT " + OnePageCount.SUIBI_COUNT_ONE_PAGE);
                 suibis = suibiMapper.selectList(suibiQueryWrapper);
             }
+
+            //批量查询user
+            ArrayList<String> openIdList = new ArrayList<>();
+            ArrayList<String> suibiIdList = new ArrayList<>();
+            for (Suibi suibi : suibis) {
+                openIdList.add(suibi.getOpenId());
+                suibiIdList.add(String.valueOf(suibi.getSuibiId()));
+            }
+            QueryWrapper<User> userQueryWrapper = new QueryWrapper<>();
+            userQueryWrapper.in("open_id",openIdList);
+            List<User> users = userMapper.selectList(userQueryWrapper);
+
+            //批量查询举报信息
+            QueryWrapper<Report> reportQueryWrapper = new QueryWrapper<>();
+            reportQueryWrapper.eq("from_open_id", openId);  //本用户openId
+            reportQueryWrapper.in("suibi_id", suibiIdList);
+            List<Report> reports = reportMapper.selectList(reportQueryWrapper);
+
+            //批量查询点赞
+            QueryWrapper<Praise> praiseQueryWrapper = new QueryWrapper<>();
+            praiseQueryWrapper.eq("praise_open_id", openId);
+            reportQueryWrapper.in("suibi_id", suibiIdList);
+            List<Praise> praises = praiseMapper.selectList(praiseQueryWrapper);
 
             for (Suibi suibi : suibis) {
                 Map<String, Object> suibiHashMap = new HashMap<>();
@@ -183,18 +158,42 @@ public class SuibiServiceImpl implements SuibiService {
                 String suibiTime = DateTimeUtils.computeTime(suibi.getSuibiTime().getTime());
                 suibiHashMap.put("suibiTime", suibiTime);
                 suibiHashMap.put("isGood", StringUtils.isBlank(suibi.getIsGood())? 0 : Integer.valueOf(suibi.getIsGood()));
-
-                //查询发表人的相关信息
-                QueryWrapper<User> userQueryWrapper = new QueryWrapper<>();
-                userQueryWrapper.eq("open_id", suibi.getOpenId());
-                User user = userMapper.selectOne(userQueryWrapper);
-                suibiHashMap.put("openId", user.getOpenId());
-                suibiHashMap.put("userName", user.getName());
-                suibiHashMap.put("headPhoto", user.getHeadPhotoUrl());
-
+                suibiHashMap.put("isReport", 0);
+                suibiHashMap.put("isPraised", 0);
                 suibiHashMap.put("commentCount", StringUtils.isEmpty(suibi.getCommentCount()) ? 0 : Integer.valueOf(suibi.getCommentCount()));
                 suibiHashMap.put("praiseCount", StringUtils.isEmpty(suibi.getPraiseCount()) ? 0 : Integer.valueOf(suibi.getPraiseCount()));
 
+                //合并用户相关信息
+                if(null != users && users.size() > 0){
+                    for (User user : users) {
+                        if(suibi.getOpenId().equals(user.getOpenId())){
+                            suibiHashMap.put("openId", user.getOpenId());
+                            suibiHashMap.put("userName", user.getName());
+                            suibiHashMap.put("headPhoto", user.getHeadPhotoUrl());
+                            break;
+                        }
+                    }
+                }
+
+                //判断该随笔有没有被使用小程序的用户举报
+                if(null != reports && reports.size() > 0){
+                    for (Report report : reports) {
+                        if(String.valueOf(suibi.getSuibiId()).equals(report.getSuibiId())){
+                            suibiHashMap.put("isReport", 1);
+                            break;
+                        }
+                    }
+                }
+
+                //判断该随笔有没有被使用小程序的用户点赞
+                if(null != praises && praises.size() > 0){
+                    for (Praise praise : praises) {
+                        if(String.valueOf(suibi.getSuibiId()).equals(praise.getSuibiId())){
+                            suibiHashMap.put("isPraised", 1);
+                            break;
+                        }
+                    }
+                }
                 suibiDetails.add(suibiHashMap);
             }
             globalResult.setData(suibiDetails);

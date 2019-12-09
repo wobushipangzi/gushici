@@ -23,7 +23,6 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
-import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
 
@@ -42,21 +41,21 @@ public class SuibiController {
     }
 
     /**
-     * 用户随笔文字图片内容上传接口
+     * 用户随笔文字内容上传接口
      */
     @RequestMapping(value = "/uploadContent", method = RequestMethod.POST)
     @ResponseBody
     @Transactional
-    public GlobalResult uploadContent(@RequestParam String openId, @RequestParam String content, @RequestParam List<MultipartFile> imgList) {
-        logger.info("用户{}随笔文字内容上传接口入参为：==>{},imgList{}", openId, content, imgList);
+    public GlobalResult uploadContent(@RequestParam String openId, @RequestParam String content) {
+        logger.info("用户{}随笔文字内容上传接口入参为：==>{}", openId, content);
         GlobalResult globalResult = GlobalResult.success();
         try {
-            if(StringUtils.isEmpty(content) && (null == imgList || imgList.size() == 0)){
+            if(StringUtils.isEmpty(content)){
                 globalResult.setCode(ResultCode.传入参数不合法.getCode());
                 globalResult.setMessage(ResultCode.传入参数不合法.getMsg());
                 return globalResult;
             }
-            globalResult = suibiService.saveSuibiContent(openId, content, imgList);
+            globalResult = suibiService.saveSuibiContent(openId, content);
 
             if (!ResultCode.处理成功.getCode().equals(globalResult.getCode())) {
                 logger.error("用户发表随笔接口错误");
@@ -119,9 +118,9 @@ public class SuibiController {
                 String key = Xiaochengxu.SUIBI_PERFIX + suibiId;
                 String imgsJson = RedisUtils.get(key);
                 List imgList = JSONObject.parseObject(imgsJson, List.class);
-                ExecutorService executorService = ThreadPool.newExecutorInstance();
                 if(null != imgList && imgList.size() > 0){
                     if(Integer.valueOf(imgCount) == imgList.size()){
+                        ExecutorService executorService = ThreadPool.newExecutorInstance();
                         ArrayList<Future<GlobalResult>> submitList = new ArrayList<>();
                         //遍历imgList 开线程批量处理
                         for (Object o : imgList) {
@@ -258,9 +257,10 @@ public class SuibiController {
         try {
             JSONObject jsonObject = JSONObject.parseObject(jsonData);
             String lastSuibiId = jsonObject.getString("lastSuibiId");
+            String openId = jsonObject.getString("openId");
 
             //查询10条随笔数据
-            globalResult = suibiService.getFifSuibis(lastSuibiId);
+            globalResult = suibiService.getFifSuibis(lastSuibiId, openId);
             //logger.info("获取推荐页数据接口出参为：==>{}", JSONObject.toJSONString(globalResult));
             if(!ResultCode.处理成功.getCode().equals(globalResult.getCode())){
                 logger.error("调用获取推荐页数据失败");

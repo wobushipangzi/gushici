@@ -17,14 +17,14 @@ public interface SuibiService {
      * @param content   随笔的文字内容
      * @return
      */
-    GlobalResult saveSuibiContent(String openId, String content, List<MultipartFile> imgList);
+    GlobalResult saveSuibiContent(String openId, String content);
 
 
     /**
      * 查询十条随笔数据
      * @param lastSuibiId   前端返回的最后一条数据的id
      */
-    GlobalResult getFifSuibis(String lastSuibiId);
+    GlobalResult getFifSuibis(String lastSuibiId, String openId);
 
 
     /**
