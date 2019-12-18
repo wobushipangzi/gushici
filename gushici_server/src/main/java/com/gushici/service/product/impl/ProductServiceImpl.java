@@ -256,6 +256,9 @@ public class ProductServiceImpl implements ProductService {
 
                 //解析文字
                 words = ParseWordUtils.parseWord(words);
+                if(wordsResultList.size() > 1 && words.toCharArray().length < 3){
+                    continue;
+                }
                 wordList.add(words);
             }
 

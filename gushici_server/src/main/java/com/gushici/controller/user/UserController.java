@@ -638,7 +638,6 @@ public class UserController {
      * 举报接口上传基本信息
      */
     @RequestMapping(value = "/report", method = RequestMethod.POST)
-    @ResponseBody
     public GlobalResult report(@RequestBody String jsonData) {
         logger.info("举报接口入参为：==>" + jsonData);
         GlobalResult globalResult = GlobalResult.success();
@@ -670,7 +669,6 @@ public class UserController {
      * 用户举报截图上传接口
      */
     @RequestMapping(value = "/uploadReportImg", method = RequestMethod.POST)
-    @ResponseBody
     @Transactional
     public GlobalResult uploadReportImg(@RequestParam String reportId, @RequestParam MultipartFile reportImg){
         logger.info("用户举报截图上传接口入参为：==>" + reportId);

@@ -107,6 +107,15 @@ public class ParseWordUtils {
             }
         }
 
+        wordsplit = words.split("·");
+        for (String word : wordsplit) {
+            if(StringUtils.isNotEmpty(word) && !word.equals("。") && !word.equals("！") && !word.equals("？") && !word.equals("：")
+                    && !word.equals(",") && !word.equals("、") && !word.equals("!") && !word.equals("?") && !word.equals(":") && !word.equals("·")){
+                words = word;
+                break;
+            }
+        }
+
         logger.info("解析后的文字出参为：==>" + words);
         return words;
     }

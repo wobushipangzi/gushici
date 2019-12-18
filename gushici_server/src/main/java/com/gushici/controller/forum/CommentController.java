@@ -120,7 +120,7 @@ public class CommentController {
     @ResponseBody
     public GlobalResult showComment(@RequestBody String jsonData) {
         logger.info("展示主评论接口入参为：==>{}", jsonData);
-        GlobalResult globalResult = GlobalResult.success();
+        GlobalResult globalResult;
 
         try {
             JSONObject jsonObject = JSONObject.parseObject(jsonData);

@@ -198,7 +198,7 @@ public class CommentServiceImpl implements CommentService {
             List<CommentAndUser> comments = commentMapper.selectCommentAndUser(topicId, topicType, indexCount, OnePageCount.GUSHICI_COUNT_ONE_PAGE);
 
             if(comments == null || comments.size() == 0){
-                return null;
+                return globalResult;
             }
 
             List<String> commentIdList = new ArrayList<>();

@@ -115,7 +115,7 @@ public class SuibiServiceImpl implements SuibiService {
                 suibis = suibiMapper.selectList(suibiQueryWrapper);
             }else {
                 QueryWrapper<Suibi> suibiQueryWrapper = new QueryWrapper<>();
-                suibiQueryWrapper.lt("suibi_id",lastSuibiId).orderByDesc("suibi_time").last("LIMIT " + OnePageCount.SUIBI_COUNT_ONE_PAGE);
+                suibiQueryWrapper.lt("suibi_id",lastSuibiId).orderByDesc("suibi_id").last("LIMIT " + OnePageCount.SUIBI_COUNT_ONE_PAGE);
                 suibis = suibiMapper.selectList(suibiQueryWrapper);
             }
 
@@ -144,7 +144,7 @@ public class SuibiServiceImpl implements SuibiService {
 
             for (Suibi suibi : suibis) {
                 Map<String, Object> suibiHashMap = new HashMap<>();
-                suibiHashMap.put("suibiId", String.valueOf(suibi.getSuibiId()));
+                suibiHashMap.put("suibiId", suibi.getSuibiId());
                 if (StringUtils.isNotEmpty(suibi.getContent())) {
                     suibiHashMap.put("content", suibi.getContent());
                 }
